@@ -128,7 +128,7 @@ if __name__ == "__main__":
 
   arr = [1, 2, 3, None, 4, None, None, 5, 6, None, 7]
 
-  root = build_tree1(arr)
+  root = build_tree(arr)
   #root = array_to_binary_tree(arr)
   
   print("preorder")
